@@ -58,12 +58,15 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  contact:
-    handler: handler.contact
+  break_ruzzle:
+    handler: break_ruzzle.execute
+    events:
+     - http:
+         path: break-ruzzle
+         method: get
 
-#    The following are a few example events you can configure
-#    NOTE: Please make sure to change your handler code to work with those events
-#    Check the event documentation for details
+  contact:
+    handler: contact.execute
     events:
      - http:
          path: contact 

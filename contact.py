@@ -3,7 +3,7 @@ import json
 import os
 import smtplib
 
-def contact(event, context):
+def execute(event, context):
     name = event["queryStringParameters"]["name"]
     email = event["queryStringParameters"]["email"]
     comments = event["queryStringParameters"]["comments"]
