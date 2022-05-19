@@ -19,7 +19,7 @@ service: alanbuttars-lambdas
 
 provider:
   name: aws
-  runtime: python3.6
+  runtime: python3.9
 
 # you can overwrite defaults here
   stage: production

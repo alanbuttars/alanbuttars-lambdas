@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serverless-domain-manager": "^2.4.0"
+    "serverless-domain-manager": "^6.0.3"
   }
 }
